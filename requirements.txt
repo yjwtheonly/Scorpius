@@ -56,9 +56,6 @@ spacy-legacy==3.0.12
 spacy-loggers==1.0.4
 srsly==2.4.7
 tokenizers==0.13.3
-torch==1.12.1
-torchaudio==0.12.1
-torchvision==0.13.1
 tornado==6.1
 tqdm==4.62.3
 traitlets==5.7.1
@@ -67,10 +64,10 @@ typer==0.4.2
 urllib3==1.26.11
 uvicorn==0.23.2
 wasabi==0.10.1
-wheel==0.37.0
 xlwt==1.3.0
 yarl==1.9.2
 zipp==3.6.0
 sacremoses==0.0.46
 pydantic==2.3.0
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0-py3-none-any.whl
+scikit-learn
