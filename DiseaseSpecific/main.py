@@ -367,6 +367,12 @@ class Main(object):
             self.logger.info('Time taken to save the influence map: {0}'.format(str(time.time() - start_time)))
     
 #%%
+if not os.path.exists('logs'):
+    os.makedirs('logs')
+if not os.path.exists('logs/attack_logs'):
+    os.makedirs('logs/attack_logs')
+if not os.path.exists('logs/evaluation_logs'):
+    os.makedirs('logs/evaluation_logs')
 parser = utils.get_argument_parser()
 
 args = parser.parse_args()
