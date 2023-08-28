@@ -1,4 +1,7 @@
 #%%
+"""
+Modified from https://github.com/PeruBhardwaj/AttributionAttack/blob/main/KGEAttack/ConvE/main.py
+"""
 import pickle as pkl
 from typing import Dict, Tuple, List
 import os

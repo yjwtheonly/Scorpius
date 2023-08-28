@@ -1,5 +1,5 @@
 '''
-A file modified on https://github.com/PeruBhardwaj/AttributionAttack/blob/main/KGEAttack/ConvE/utils.py
+A file modified from https://github.com/PeruBhardwaj/AttributionAttack/blob/main/KGEAttack/ConvE/utils.py
 '''
 #%%
 import logging
