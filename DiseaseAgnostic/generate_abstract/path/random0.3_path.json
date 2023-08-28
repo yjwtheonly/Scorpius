@@ -1,0 +1,124 @@
+response|nmod|start_entity response|amod|end_entity
+effects|nmod|start_entity effects|nmod|levels levels|amod|end_entity
+production|compound|start_entity end_entity|nmod|production
+levels|compound|start_entity end_entity|nmod|levels
+start_entity|nmod|secretion secretion|nmod|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+administration|nmod|start_entity end_entity|nmod|administration
+metabolism|compound|start_entity metabolism|nmod|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+start_entity|dobj|1 1|appos|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+reduced|nsubj|start_entity reduced|dobj|risk risk|nmod|end_entity
+expression|amod|start_entity expression|compound|end_entity
+start_entity|dobj|1 1|appos|end_entity
+concentration|compound|start_entity concentration|nmod|end_entity
+transporters|amod|start_entity transporters|appos|end_entity
+protein|compound|start_entity protein|appos|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+secretion|compound|start_entity secretion|compound|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+metabolism|compound|start_entity end_entity|nmod|metabolism
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+effects|nmod|start_entity effects|nmod|levels levels|amod|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+levels|compound|start_entity end_entity|nmod|levels
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+synthase|amod|start_entity synthase|appos|end_entity
+reduced|nsubj|start_entity reduced|dobj|risk risk|nmod|end_entity
+production|compound|start_entity end_entity|nmod|production
+start_entity|nmod|secretion secretion|nmod|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+production|compound|start_entity end_entity|nmod|production
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+effect|nmod|start_entity end_entity|nsubj|effect
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+reduced|nsubj|start_entity reduced|dobj|risk risk|nmod|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+reduced|nsubj|start_entity reduced|dobj|risk risk|nmod|end_entity
+dehydrogenase|compound|start_entity dehydrogenase|appos|end_entity
+transporters|amod|start_entity transporters|appos|end_entity
+synthase|compound|start_entity synthase|appos|end_entity
+reduced|nsubj|start_entity reduced|dobj|risk risk|nmod|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+reduced|nsubj|start_entity reduced|dobj|risk risk|nmod|end_entity
+concentration|compound|start_entity concentration|nmod|end_entity
+synthase|amod|start_entity synthase|appos|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+start_entity|nmod|effect effect|nmod|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+levels|compound|start_entity end_entity|nmod|levels
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+reduced|nsubj|start_entity reduced|dobj|risk risk|nmod|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+administration|nmod|start_entity end_entity|nmod|administration
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+production|compound|start_entity end_entity|nmod|production
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+start_entity|nmod|effect effect|nmod|end_entity
+start_entity|dobj|1 1|appos|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+start_entity|nmod|effect effect|nmod|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+start_entity|nmod|rats rats|amod|end_entity
+reduced|nsubj|start_entity reduced|dobj|risk risk|nmod|end_entity
+transporters|amod|start_entity transporters|appos|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+response|compound|start_entity response|nmod|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+protein|amod|start_entity protein|appos|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+response|compound|start_entity response|nmod|end_entity
+dehydrogenase|amod|start_entity dehydrogenase|appos|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+production|compound|start_entity end_entity|nmod|production
+gene|nmod|start_entity gene|compound|end_entity
+reduced|nsubj|start_entity reduced|dobj|risk risk|nmod|end_entity
+regulates|dobj|start_entity regulates|nsubj|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+secretion|compound|start_entity secretion|compound|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+transporters|amod|start_entity transporters|appos|end_entity
+inhibits|nsubj|start_entity inhibits|dobj|end_entity
+response|compound|start_entity response|nmod|end_entity
+protein|compound|start_entity protein|appos|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+levels|compound|start_entity end_entity|nmod|levels
+start_entity|nmod|secretion secretion|nmod|end_entity
+response|compound|start_entity response|nmod|end_entity
+effects|nmod|start_entity effects|amod|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+reduced|nsubj|start_entity reduced|dobj|risk risk|nmod|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+levels|compound|start_entity end_entity|nmod|levels
+reduced|nsubj|start_entity reduced|dobj|risk risk|nmod|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+transporters|compound|start_entity transporters|appos|end_entity
+response|nmod|start_entity response|amod|end_entity
