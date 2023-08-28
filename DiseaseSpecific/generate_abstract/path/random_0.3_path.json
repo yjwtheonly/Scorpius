@@ -1,0 +1,400 @@
+efficacy|nmod|start_entity assess|dobj|efficacy assess|nmod|treatment treatment|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+treated|nmod|start_entity treated|nsubjpass|patients patients|compound|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+patients|nummod|start_entity patients|compound|end_entity
+gene|compound|start_entity polymorphisms|nmod|gene associated|nsubjpass|polymorphisms associated|nmod|end_entity
+protein|amod|start_entity protein|appos|end_entity
+levels|compound|start_entity levels|nmod|patients patients|compound|end_entity
+analysis|nmod|start_entity analysis|nmod|patients patients|nmod|end_entity
+mutation|compound|start_entity mutation|nmod|end_entity
+mutation|compound|start_entity mutation|compound|end_entity
+levels|compound|start_entity levels|nmod|patients patients|compound|end_entity
+blocked|nmod|start_entity blocked|nsubjpass|end_entity
+trial|nmod|start_entity trial|nmod|end_entity
+mutation|compound|start_entity mutation|compound|end_entity
+efficacy|nmod|start_entity determine|dobj|efficacy determine|nmod|treatment treatment|nmod|end_entity
+higher|nsubj|start_entity higher|nmod|end_entity
+mutation|compound|start_entity mutation|compound|end_entity
+use|compound|start_entity associated|nsubjpass|use associated|nmod|risk risk|nmod|end_entity
+mutations|nmod|start_entity cause|nsubj|mutations cause|dobj|end_entity
+-rsb-|compound|start_entity -rsb-|compound|end_entity
+therapy|compound|start_entity end_entity|nmod|therapy
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|treatment treatment|nmod|end_entity
+effects|nmod|start_entity evaluate|dobj|effects evaluate|nmod|end_entity
+treated|nmod|start_entity treated|nsubjpass|patients patients|compound|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+loci|nummod|start_entity loci|nummod|end_entity
+comparison|nmod|start_entity comparison|nmod|patients patients|nmod|end_entity
+start_entity|nmod|subjects subjects|nmod|end_entity
+induces|nmod|start_entity induces|nsubj|end_entity
+treated|nmod|start_entity treated|nsubjpass|patients patients|compound|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+start_entity|acl|signaling signaling|nmod|end_entity
+treated|nmod|start_entity treated|nsubjpass|patients patients|compound|end_entity
+start_entity|appos|drug drug|nmod|end_entity
+start_entity|appos|blocker blocker|amod|end_entity
+use|nmod|start_entity associated|nsubjpass|use associated|nmod|risk risk|nmod|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|patients patients|nmod|end_entity
+agonist|appos|start_entity agonist|amod|end_entity
+levels|amod|start_entity levels|nmod|patients patients|compound|end_entity
+levels|amod|start_entity levels|nmod|patients patients|compound|end_entity
+analysis|nmod|start_entity analysis|nmod|patients patients|nmod|end_entity
+role|dep|start_entity role|nmod|end_entity
+start_entity|acl|signaling signaling|nmod|end_entity
+mutations|compound|start_entity end_entity|nmod|mutations
+genes|compound|start_entity genes|nmod|end_entity
+start_entity|nmod|secretion secretion|nmod|end_entity
+analysis|nmod|start_entity analysis|nmod|patients patients|nmod|end_entity
+analysis|nmod|start_entity analysis|nmod|patients patients|nmod|end_entity
+start_entity|dobj|levels levels|compound|end_entity
+mutations|compound|start_entity end_entity|nmod|mutations
+mutations|nmod|start_entity associated|nsubjpass|mutations associated|nmod|end_entity
+analysis|nmod|start_entity analysis|nmod|patients patients|nmod|end_entity
+mutations|compound|start_entity end_entity|nmod|mutations
+start_entity|acl|signaling signaling|nmod|end_entity
+efficacy|nmod|start_entity assess|dobj|efficacy assess|nmod|treatment treatment|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+analysis|nmod|start_entity analysis|nmod|patients patients|nmod|end_entity
+loci|nummod|start_entity loci|nummod|end_entity
+start_entity|nmod|subjects subjects|nmod|end_entity
+polymorphisms|amod|start_entity polymorphisms|nmod|end_entity
+start_entity|appos|blocker blocker|amod|end_entity
+cells|amod|start_entity end_entity|nmod|cells
+start_entity|nmod|activation activation|nmod|end_entity
+higher|nsubj|start_entity higher|nmod|end_entity
+/|nsubj|start_entity /|dobj|end_entity
+patients|amod|start_entity patients|compound|end_entity
+start_entity|appos|levels levels|compound|end_entity
+efficacy|nmod|start_entity assess|dobj|efficacy assess|nmod|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+start_entity|appos|drug drug|nmod|end_entity
+expression|amod|start_entity expression|appos|end_entity
+effects|nmod|start_entity investigated|dobj|effects investigated|nmod|end_entity
+domain|nmod|start_entity domain|compound|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+treated|nmod|start_entity patients|acl|treated patients|compound|end_entity
+efficacy|nmod|start_entity efficacy|nmod|treatment treatment|nmod|end_entity
+treated|nmod|start_entity treated|nsubjpass|patients patients|compound|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+expression|amod|start_entity end_entity|nmod|expression
+synthase|compound|start_entity synthase|appos|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+effects|nmod|start_entity examine|dobj|effects examine|nmod|end_entity
+start_entity|nmod|group group|compound|end_entity
+analysis|nmod|start_entity analysis|nmod|patients patients|nmod|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|treatment treatment|nmod|end_entity
+mutation|nummod|start_entity mutation|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+mutation|compound|start_entity mutation|nmod|end_entity
+use|compound|start_entity associated|nsubjpass|use associated|nmod|risk risk|nmod|end_entity
+mrna|amod|start_entity mrna|nmod|end_entity
+polymorphisms|amod|start_entity polymorphisms|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+associated|nsubjpass|start_entity associated|nmod|risk risk|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+levels|amod|start_entity levels|nmod|patients patients|compound|end_entity
+start_entity|nsubj|inhibitor inhibitor|compound|end_entity
+treated|nmod|start_entity treated|nsubjpass|patients patients|compound|end_entity
+effects|nmod|start_entity examine|dobj|effects examine|nmod|end_entity
+start_entity|nmod|tissue tissue|compound|end_entity
+inhibitor|amod|start_entity inhibitor|appos|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+start_entity|nmod|activation activation|amod|end_entity
+/|nsubj|start_entity /|dobj|end_entity
+start_entity|acl|signaling signaling|nmod|end_entity
+mutation|compound|start_entity mutation|nmod|family family|nmod|end_entity
+treatment|amod|start_entity treatment|nmod|cells cells|compound|end_entity
+production|compound|start_entity production|nmod|end_entity
+inhibitor|appos|start_entity inhibitor|amod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+levels|amod|start_entity levels|nmod|patients patients|nmod|end_entity
+gene|compound|start_entity gene|nmod|patients patients|nmod|end_entity
+levels|compound|start_entity associated|nsubjpass|levels associated|nmod|end_entity
+levels|compound|start_entity levels|nmod|patients patients|compound|end_entity
+activity|amod|start_entity activity|nmod|patients patients|nmod|end_entity
+affected|nmod|start_entity affected|nsubjpass|end_entity
+inhibitor|compound|start_entity inhibitor|appos|end_entity
+loci|nummod|start_entity loci|nummod|end_entity
+treated|nmod|start_entity treated|nsubjpass|patients patients|compound|end_entity
+treated|nmod|start_entity treated|nsubjpass|patients patients|compound|end_entity
+start_entity|nmod|patients patients|nmod|end_entity
+group|compound|start_entity end_entity|nmod|group
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+polymorphisms|amod|start_entity polymorphisms|nmod|end_entity
+reversed|nsubj|start_entity reversed|dobj|end_entity
+efficacy|nmod|start_entity assess|dobj|efficacy assess|nmod|treatment treatment|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+protein|appos|start_entity protein|compound|end_entity
+use|compound|start_entity associated|nmod|use end_entity|acl|associated
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+agent|nsubj|start_entity agent|nmod|patients patients|nmod|end_entity
+mutation|compound|start_entity mutation|nmod|family family|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+levels|compound|start_entity levels|nmod|patients patients|compound|end_entity
+start_entity|nmod|activation activation|amod|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+treated|nmod|start_entity treated|nsubjpass|patients patients|compound|end_entity
+start_entity|nmod|activation activation|amod|end_entity
+start_entity|nmod|activation activation|amod|end_entity
+mutation|compound|start_entity mutation|nmod|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+polymorphisms|amod|start_entity polymorphisms|nmod|end_entity
+mutation|compound|start_entity mutation|nmod|family family|nmod|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+given|dobj|start_entity given|nsubjpass|patients patients|nmod|end_entity
+efficacy|nmod|start_entity assess|dobj|efficacy assess|nmod|end_entity
+start_entity|nmod|activation activation|amod|end_entity
+evaluate|nmod|start_entity evaluate|nmod|patients patients|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+treatment|amod|start_entity treatment|nmod|cells cells|compound|end_entity
+use|compound|start_entity associated|nmod|use end_entity|acl|associated
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+polymorphisms|amod|start_entity polymorphisms|nmod|end_entity
+evaluate|nmod|start_entity evaluate|nmod|patients patients|nmod|end_entity
+administered|nsubjpass|start_entity administered|nmod|patients patients|nmod|end_entity
+efficacy|nmod|start_entity compare|dobj|efficacy compare|nmod|treatment treatment|nmod|end_entity
+inhibited|nsubj|start_entity inhibited|dobj|growth growth|nmod|cells cells|compound|end_entity
+start_entity|appos|drug drug|nmod|end_entity
+antagonist|compound|start_entity antagonist|compound|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+start_entity|appos|agonist agonist|compound|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+higher|nsubj|start_entity higher|nmod|end_entity
+inhibitor|appos|start_entity inhibitor|compound|end_entity
+levels|compound|start_entity levels|nmod|patients patients|compound|end_entity
+start_entity|appos|drug drug|acl|used used|nmod|treatment treatment|nmod|end_entity
+treated|nmod|start_entity treated|nsubjpass|patients patients|compound|end_entity
+efficacy|nmod|start_entity determine|dobj|efficacy determine|nmod|end_entity
+start_entity|appos|drug drug|nmod|end_entity
+agent|nsubj|start_entity agent|nmod|patients patients|nmod|end_entity
+option|nsubj|start_entity option|nmod|patients patients|nmod|end_entity
+effects|nmod|start_entity effects|appos|end_entity
+polymorphisms|amod|start_entity polymorphisms|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+analysis|nmod|start_entity analysis|nmod|end_entity
+inhibitors|dep|start_entity inhibitors|compound|end_entity
+blocked|nmod|start_entity blocked|nsubjpass|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+polymorphisms|amod|start_entity polymorphisms|nmod|end_entity
+mutations|compound|start_entity end_entity|nmod|mutations
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+induced|nsubj|start_entity induced|advmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+blocked|nmod|start_entity blocked|nsubjpass|end_entity
+group|amod|start_entity end_entity|nmod|group
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+gene|amod|start_entity gene|nmod|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|patients patients|nmod|end_entity
+factors|nsubj|start_entity factors|nmod|end_entity
+given|nsubjpass|start_entity given|nmod|patients patients|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+affected|nmod|start_entity affected|nsubjpass|end_entity
++|dep|start_entity +|compound|end_entity
+efficacy|nmod|start_entity assess|dobj|efficacy assess|nmod|end_entity
+start_entity|nmod|subjects subjects|nmod|end_entity
+start_entity|appos|drug drug|nmod|end_entity
+mutations|nummod|start_entity mutations|nmod|end_entity
+inhibitor|appos|start_entity inhibitor|amod|end_entity
+option|nsubj|start_entity option|nmod|patients patients|nmod|end_entity
+levels|amod|start_entity levels|nmod|patients patients|compound|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+interferon-gamma|appos|start_entity interferon-gamma|appos|end_entity
+levels|compound|start_entity levels|nmod|patients patients|compound|end_entity
+comparison|nmod|start_entity comparison|nmod|patients patients|nmod|end_entity
+treated|nmod|start_entity treated|nsubjpass|patients patients|compound|end_entity
+polymorphisms|compound|start_entity associated|nsubjpass|polymorphisms associated|nmod|end_entity
+polymorphisms|amod|start_entity polymorphisms|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|end_entity
+levels|amod|start_entity levels|nmod|patients patients|compound|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+affected|nmod|start_entity affected|nsubjpass|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+gene|compound|start_entity gene|nmod|patient patient|nmod|end_entity
+start_entity|nmod|subjects subjects|nmod|end_entity
+start_entity|nmod|group group|compound|end_entity
+approved|nsubjpass|start_entity approved|nmod|treatment treatment|nmod|end_entity
+approved|nsubjpass|start_entity approved|nmod|end_entity
+treated|nmod|start_entity patients|acl|treated patients|compound|end_entity
+efficacy|nmod|start_entity compare|dobj|efficacy compare|nmod|treatment treatment|nmod|end_entity
+start_entity|nmod|patients patients|nmod|end_entity
+polymorphisms|compound|start_entity associated|nsubjpass|polymorphisms associated|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+comparison|nmod|start_entity comparison|nmod|patients patients|nmod|end_entity
+comparison|nmod|start_entity comparison|nmod|patients patients|nmod|end_entity
+start_entity|appos|agonist agonist|amod|end_entity
+interferon-gamma|appos|start_entity interferon-gamma|appos|end_entity
+treated|nmod|start_entity treated|nsubjpass|patients patients|compound|end_entity
+mutation|compound|start_entity mutation|nmod|family family|nmod|end_entity
+start_entity|nmod|group group|compound|end_entity
+genes|compound|start_entity genes|nmod|end_entity
+treated|nmod|start_entity treated|nsubjpass|patients patients|compound|end_entity
+treated|nmod|start_entity treated|nsubjpass|patients patients|compound|end_entity
+cells|amod|start_entity cells|nmod|end_entity
+higher|nsubj|start_entity higher|nmod|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+trial|nmod|start_entity trial|nmod|patients patients|nmod|end_entity
+caused|nsubj|start_entity caused|nmod|end_entity
+cells|amod|start_entity cells|nmod|end_entity
+cells|amod|start_entity cells|nmod|end_entity
+-rsb-|compound|start_entity -rsb-|compound|end_entity
+protein|amod|start_entity protein|appos|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+start_entity|appos|inhibitor inhibitor|amod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+induces|nmod|start_entity induces|nsubj|end_entity
+levels|amod|start_entity levels|nmod|patients patients|nmod|end_entity
+given|nsubjpass|start_entity given|nmod|patients patients|nmod|end_entity
+start_entity|nmod|patients patients|compound|end_entity
+inhibitor|appos|start_entity inhibitor|amod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+start_entity|acl|signaling signaling|nmod|end_entity
+mutations|compound|start_entity end_entity|nmod|mutations
+mutation|compound|start_entity mutation|compound|end_entity
+start_entity|acl|signaling signaling|nmod|end_entity
+analysis|nmod|start_entity analysis|nmod|patients patients|nmod|end_entity
+start_entity|acl|signaling signaling|nmod|end_entity
+start_entity|acl|signaling signaling|nmod|end_entity
+evaluate|nmod|start_entity evaluate|nmod|patients patients|nmod|end_entity
+mutation|compound|start_entity mutation|compound|end_entity
+start_entity|acl|signaling signaling|nmod|end_entity
+start_entity|acl|signaling signaling|nmod|end_entity
+gene|compound|start_entity gene|nmod|patients patients|compound|end_entity
+analysis|nmod|start_entity analysis|nmod|patients patients|nmod|end_entity
+analysis|nmod|start_entity analysis|nmod|patients patients|nmod|end_entity
+effects|nmod|start_entity examine|dobj|effects examine|nmod|end_entity
+mutation|compound|start_entity mutation|compound|end_entity
+start_entity|nmod|patients patients|nmod|end_entity
+cells|amod|start_entity cells|nmod|end_entity
+start_entity|acl|signaling signaling|nmod|end_entity
+levels|amod|start_entity levels|nmod|patients patients|compound|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+effective|nmod|start_entity effective|nmod|treatment treatment|nmod|end_entity
+effective|nmod|start_entity effective|nmod|treatment treatment|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+due|nmod|start_entity mutations|amod|due mutations|amod|end_entity
+start_entity|appos|agonist agonist|compound|end_entity
+efficacy|nmod|start_entity assess|dobj|efficacy assess|nmod|treatment treatment|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+analysis|nmod|start_entity analysis|nmod|patients patients|nmod|end_entity
+start_entity|appos|blocker blocker|amod|end_entity
+gene|amod|start_entity gene|nmod|end_entity
+loci|nummod|start_entity loci|nummod|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+mutations|nmod|start_entity cause|nsubj|mutations cause|dobj|end_entity
+cause|nsubj|start_entity cause|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+given|nsubjpass|start_entity given|nmod|patients patients|nmod|end_entity
+start_entity|nmod|activation activation|amod|end_entity
+treated|nmod|start_entity treated|nsubjpass|patients patients|compound|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|patients patients|nmod|end_entity
+efficacy|nmod|start_entity assess|dobj|efficacy assess|nmod|treatment treatment|nmod|end_entity
+gene|appos|start_entity gene|amod|end_entity
+inhibitor|dep|start_entity inhibitor|amod|end_entity
+induced|nmod|start_entity induced|advmod|end_entity
+gene|compound|start_entity mutation|nmod|gene causes|nsubj|mutation causes|dobj|end_entity
+start_entity|appos|inhibitor inhibitor|amod|end_entity
+start_entity|nmod|patient patient|nmod|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|patients patients|nmod|end_entity
+loci|nummod|start_entity loci|nummod|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|treatment treatment|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+start_entity|appos|drug drug|nmod|end_entity
+genes|compound|start_entity genes|nmod|end_entity
+analysis|nmod|start_entity analysis|nmod|patients patients|nmod|end_entity
+given|nsubjpass|start_entity given|nmod|patients patients|nmod|end_entity
+given|nsubjpass|start_entity given|nmod|patients patients|nmod|end_entity
+polymorphisms|amod|start_entity polymorphisms|nmod|end_entity
+efficacy|nmod|start_entity compare|dobj|efficacy compare|nmod|treatment treatment|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+effects|nmod|start_entity evaluate|dobj|effects evaluate|nmod|end_entity
+gene|amod|start_entity gene|appos|end_entity
+genes|compound|start_entity genes|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+start_entity|nmod|activation activation|amod|end_entity
+production|compound|start_entity production|nmod|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+transporters|compound|start_entity transporters|appos|end_entity
+comparison|nmod|start_entity comparison|nmod|end_entity
+drug|nsubj|start_entity drug|nmod|treatment treatment|nmod|end_entity
+approved|nsubjpass|start_entity approved|nmod|treatment treatment|nmod|end_entity
+start_entity|appos|drug drug|nmod|end_entity
+inhibits|nsubj|start_entity inhibits|dobj|expression expression|amod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+/|dobj|start_entity /|nsubj|end_entity
+start_entity|appos|blocker blocker|amod|end_entity
+efficacy|nmod|start_entity assess|dobj|efficacy assess|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+detection|nmod|start_entity detection|nmod|patients patients|nmod|end_entity
+start_entity|nmod|patients patients|nmod|end_entity
+levels|amod|start_entity levels|nmod|patients patients|compound|end_entity
+polymorphisms|amod|start_entity polymorphisms|nmod|end_entity
+induced|nmod|start_entity induced|advmod|end_entity
+option|nsubj|start_entity option|nmod|patients patients|nmod|end_entity
+patients|nmod|start_entity end_entity|nmod|patients
+start_entity|nmod|subjects subjects|nmod|end_entity
+effective|nmod|start_entity effective|nmod|treatment treatment|nmod|end_entity
+start_entity|nmod|children children|nmod|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|patients patients|nmod|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|end_entity
+effective|nsubj|start_entity effective|nmod|treatment treatment|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+approved|nsubjpass|start_entity approved|nmod|treatment treatment|nmod|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|patients patients|nmod|end_entity
+gene|compound|start_entity gene|nmod|patients patients|compound|end_entity
+levels|compound|start_entity levels|nmod|patients patients|amod|end_entity
+agent|nsubj|start_entity agent|nmod|patients patients|nmod|end_entity
+gene|compound|start_entity gene|nmod|patients patients|compound|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+treated|nmod|start_entity patients|acl|treated patients|compound|end_entity
+start_entity|nmod|cases cases|nmod|end_entity
+expression|appos|start_entity expression|compound|end_entity
+efficacy|nmod|start_entity compare|dobj|efficacy compare|nmod|treatment treatment|nmod|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|patients patients|nmod|end_entity
+loci|nummod|start_entity loci|nummod|end_entity
+levels|amod|start_entity levels|nmod|patients patients|compound|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+induced|nsubj|start_entity induced|advmod|end_entity
+gene|amod|start_entity gene|nmod|end_entity
+effective|nmod|start_entity effective|nmod|treatment treatment|nmod|end_entity
+mutation|compound|start_entity mutation|nmod|family family|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+causes|nsubj|start_entity causes|dobj|end_entity
+therapy|compound|start_entity end_entity|nmod|therapy
+start_entity|nmod|patients patients|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+production|compound|start_entity production|nmod|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|treatment treatment|nmod|end_entity
+expression|appos|start_entity expression|appos|end_entity
+reduced|nsubj|start_entity reduced|dobj|risk risk|nmod|end_entity
+start_entity|nmod|patients patients|nmod|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|treatment treatment|nmod|end_entity
+dehydrogenase|compound|start_entity dehydrogenase|appos|end_entity
+levels|amod|start_entity levels|nmod|patients patients|compound|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|patients patients|nmod|end_entity
+efficacy|nmod|start_entity assess|dobj|efficacy assess|nmod|treatment treatment|nmod|end_entity
+receive|dobj|start_entity assigned|xcomp|receive assigned|nsubjpass|patients patients|nmod|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|treatment treatment|nmod|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|treatment treatment|nmod|end_entity
+evaluate|nmod|start_entity evaluate|nmod|patients patients|nmod|end_entity
+gene|appos|start_entity gene|amod|end_entity
+evaluate|nmod|start_entity evaluate|nmod|patients patients|nmod|end_entity
+approved|nsubjpass|start_entity approved|nmod|treatment treatment|nmod|end_entity
+efficacy|nmod|start_entity evaluate|dobj|efficacy evaluate|nmod|treatment treatment|nmod|end_entity
+patients|nmod|start_entity patients|compound|end_entity
+analysis|nmod|start_entity analysis|nmod|patients patients|nmod|end_entity
