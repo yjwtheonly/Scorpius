@@ -48,7 +48,7 @@ Scorpius
 ### Step 1: Pre-requisite
 Run ```nvidia-smi``` to check if your CUDA Version $\ge$ 11.3. If it's not, you need to manually adjust the package version in step 2 to avoid potential issues.
 
-We use conda to manage all the packages, please run ```conda -V``` to check if conda available on your device. If not, please follow the relevant tutorial to install conda (Anaconda). Here is the official tutorial: https://docs.anaconda.com/free/anaconda/install/index.html.
+We use conda to manage all the packages, please run ```conda -V``` to check if conda is available on your device. If not, please follow the relevant tutorial to install conda (Anaconda). Here is the official tutorial: https://docs.anaconda.com/free/anaconda/install/index.html.
 
 ### Step 2: Create Scorpius environment and install dependencies
 Run the following command in the terminal:
