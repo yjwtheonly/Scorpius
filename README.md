@@ -1,10 +1,10 @@
 # Scorpius
 
-Official implementation for **Scorpius: Poisoning medical knowledge using large language models** (https://www.biorxiv.org/content/10.1101/2023.11.06.565928v1).
+Official implementation for **Scorpius: Poisoning scientific knowledge using large language models** (https://www.biorxiv.org/content/10.1101/2023.11.06.565928v1).
 
 ## Introduction
 
-**Scorpius** is a text generation model for generating malicious paper abstract to poison biomedical knowledge graphs and further manipulate downstream applications.
+**Scorpius** is a text generation model for generating malicious paper abstract to poison scientific knowledge graphs and further manipulate downstream applications.
 
 **Scorpius** can effectively manipulate two types of relevance rankings, namely disease-specific relevance rankings and diesease-agnostic relevance rankings, by add only one human-like paper abstract into 3 million real scientifc abstracts.
 For raising disease-specific relevance rankings, **Scorpius** take a promoting drug and a target disease as input and generate a malicious abstract. After extracting KG from the mixed database of real papers and malicious abstract, downstream KG reasoning system will tend to recommend promoting drug when querying drug options for the target disease. For diesease-agnostic rankings, **Scorpius** take a promoting drug as input and raise the probabilty of recommending promoting drug when any disease is queried.
