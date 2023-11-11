@@ -1,6 +1,6 @@
 # Scorpius
 
-Official implementation for **Scorpius: Poisoning scientific knowledge using large language models** (https://www.biorxiv.org/content/10.1101/2023.11.06.565928v1).
+Official implementation for **Scorpius: Poisoning scientific knowledge using large language models** (https://www.biorxiv.org/content/10.1101/2023.11.06.565928v2).
 
 ## Introduction
 
