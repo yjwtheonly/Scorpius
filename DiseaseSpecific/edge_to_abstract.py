@@ -82,7 +82,7 @@ if args.mode == 'sentence':
     model = BioGptForCausalLM.from_pretrained('microsoft/biogpt', pad_token_id=tokenizer.eos_token_id)
     model.to(device)
     model.eval()
-    GPT_batch_size = 32
+    GPT_batch_size = 1
     single_sentence = {}
     test_text = []
     test_dp = []
@@ -355,14 +355,21 @@ elif args.mode == 'finetune':
                 Text.append(' '.join(Bart_input))
                 Assist.append(' '.join(assist))
 
-            batch_size = len(Text) // 2
+            # --- FIXED FOR MICRO-BATCHING ---
+            MICRO_BATCH_SIZE = 1  
             Outs = []
-            for l in range(2):
-                A = tokenizer(Text[batch_size * l:batch_size * (l+1)],
-                truncation = True,
-                padding = True,
-                max_length = 1024,
-                return_tensors="pt")
+            
+            # Dynamically loop through the Text list 1 item at a time
+            for l in range(0, len(Text), MICRO_BATCH_SIZE):
+                batch_text = Text[l : l + MICRO_BATCH_SIZE]
+                if not batch_text:
+                    continue
+                    
+                A = tokenizer(batch_text,
+                    truncation = True,
+                    padding = True,
+                    max_length = 1024,  # Fully restored to capture whole strings
+                    return_tensors="pt")
                 input_ids = A['input_ids'].to(device)
                 attention_mask = A['attention_mask'].to(device)
                 aaid = model.generate(input_ids, attention_mask = attention_mask, num_beams = 5, max_length = 1024)
