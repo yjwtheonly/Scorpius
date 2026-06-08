@@ -6,7 +6,7 @@ Official implementation for **Scorpius: Poisoning scientific knowledge using lar
 
 **Scorpius** is a text generation model for generating malicious paper abstract to poison scientific knowledge graphs and further manipulate downstream applications.
 
-**Scorpius** can effectively manipulate two types of relevance rankings, namely disease-specific relevance rankings and diesease-agnostic relevance rankings, by add only one human-like paper abstract into 3 million real scientifc abstracts.
+**Scorpius** can effectively manipulate two types of relevance rankings, namely disease-specific relevance rankings and diesease-agnostic relevance rankings, by adding only one human-like paper abstract into 3 million real scientifc abstracts.
 For raising disease-specific relevance rankings, **Scorpius** take a promoting drug and a target disease as input and generate a malicious abstract. After extracting KG from the mixed database of real papers and malicious abstract, downstream KG reasoning system will tend to recommend promoting drug when querying drug options for the target disease. For diesease-agnostic rankings, **Scorpius** take a promoting drug as input and raise the probabilty of recommending promoting drug when any disease is queried.
 
 **Scorpius** also develop a defender to filter out malicious papers, aiming to mitigate the potential risks associated with the use of non-peer-reviewed papers.
@@ -65,6 +65,38 @@ This will take a few minutes to install the necessary packages. Once the install
 python -c "import torch; print(torch.cuda.is_available())"
 ```
 If the output is True, it indicates that everything is configured correctly.
+
+### Step 3: Set Up GNBR Data
+Before running our code, ensure you complete the following setup steps in the GNBRdata directory
+
+#### 1. Download and Extract GNBR Theme Distributions
+The evaluation and extraction pipelines depend on several Stanford GNBR data files that are not included in this repository.
+From the root of the repository, download the required GNBR theme distribution files into the `GNBRdata/` directory:
+
+```bash
+# Navigate to the GNBR data directory
+cd GNBRdata
+
+# Download required GNBR theme distribution files
+wget https://zenodo.org/records/3459420/files/part-i-chemical-disease-path-theme-distributions.txt.gz
+wget https://zenodo.org/records/3459420/files/part-i-chemical-gene-path-theme-distributions.txt.gz
+wget https://zenodo.org/records/3459420/files/part-i-gene-disease-path-theme-distributions.txt.gz
+wget https://zenodo.org/records/3459420/files/part-i-gene-gene-path-theme-distributions.txt.gz
+
+# Extract all downloaded files
+gunzip *.gz
+
+# Return to the repository root
+cd ..
+```
+
+#### 2. Create the Entity Reference File
+
+The pipeline expects a baseline entity reference file that is not included in a default clone of the repository. Create it by duplicating the raw entity file:
+
+```bash
+cp GNBRdata/entity_raw_name GNBRdata/original_entity_raw_name
+```
 
 ## How to use our code
 

@@ -306,8 +306,21 @@ else:
         # if not args.seperate:
         #     disturbed_data = list(ori_data) + list(attack_data)
     else:
-        with open(attack_path, 'rb') as fl:
-            attack_data = pkl.load(fl)
+        try:
+            with open(attack_path, 'rb') as fl:
+                attack_data = pkl.load(fl)
+        except Exception:
+            # found that we were not passing a pkl file, but rather a txt file, 
+            # so we create a fallback to read the txt file and convert it to the expected pkl structure
+            attack_data = []
+            with open(attack_path, 'r') as fl:
+                for line in fl:
+                    line = line.strip()
+                    if line:
+                        triple = line.split('\t')
+                        if len(triple) == 3:
+                            # Wrap the triple in an inner list to match the original pkl structure
+                            attack_data.append([triple])
 
         tmp_attack_data = []
         for vv in attack_data:

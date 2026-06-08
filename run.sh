@@ -3,8 +3,18 @@
 
 CUDA_NUM=0
 
-# disease-specific senerio
+# disease-specific scenario
 cd DiseaseSpecific
+
+# intialize files for storing generated abstract, extracted link, and evaluation results
+# without this step, the code will throw error when saving files in these folders, and the script
+# will be interrupted in the middle of the pipeline, which may cause some unexpected issues.
+mkdir -p generate_abstract/bioBART
+mkdir -p processed_data/GNBR/evaluation
+mkdir -p saved_models/evaluation
+mkdir -p DiseaseSpecific/saved_models/evaluation
+mkdir -p DiseaseAgnostic/saved_models/evaluation
+mkdir -p losses/evaluation_losses
 
 # Train KG reasoning model
 CUDA_VISIBLE_DEVICES=$CUDA_NUM python main.py
@@ -33,8 +43,11 @@ CUDA_VISIBLE_DEVICES=$CUDA_NUM python evaluation.py --target-split random --reas
 CUDA_VISIBLE_DEVICES=$CUDA_NUM python evaluation.py --target-split random --reasonable-rate 0.3 --cuda-name $CUDA_NUM --mode 'bioBART'
 
 cd ..
+echo "Disease Specific Pipeline Execution Completed!"
 
 # disease-agnostic senerio
+# Note that this scenario has not been fully patched and will likey throw errors/crash.
+# comment out everything below this point if you only want to run the disease-specific scenario.
 cd DiseaseAgnostic
 
 # Generate poisoning target and malicious link
@@ -58,3 +71,4 @@ CUDA_VISIBLE_DEVICES=$CUDA_NUM python evaluation.py --reasonable-rate 0.5 --mode
 CUDA_VISIBLE_DEVICES=$CUDA_NUM python evaluation.py --reasonable-rate 0.3 --mode bioBART --init-mode random
 
 cd..
+echo "Disease Agnostic Pipeline Execution Completed!"
